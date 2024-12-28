@@ -1,0 +1,22 @@
+{
+    "newsapi_key": "YOUR_NEWSAPI_KEY",
+    "huggingface_api_token": "YOUR_HUGGINGFACE_API_TOKEN",
+    "kafka_news_articles":"news-articles",
+    "kafka_summarized_news_articles":"news-summaries",
+    "kafka": {
+        "bootstrap_servers": "localhost:9092",
+        "group_ids": {
+            "summarizer": "news-summary-group",
+            "distributor": "news-distribution-group"
+        }
+    },
+    "smtp": {
+        "server": "smtp.gmail.com",
+        "port": 587,
+        "username": "YOUR_EMAIL",
+        "password": "YOUR_PASSWORD"
+    },
+    "subscribers": [
+        "subscriber@example.com"
+    ]
+}

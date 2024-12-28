@@ -1,0 +1,6 @@
+confluent_kafka
+requests
+transformers
+datasets
+tensorflow
+tf-keras
