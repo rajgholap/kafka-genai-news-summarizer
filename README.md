@@ -5,7 +5,6 @@ This project fetches news articles, summarizes them using a generative AI model,
 
 ## Project Structure
 
-Project Structure
 ├── config
 │   └── config.json           # Configuration file containing API keys, Kafka, and SMTP settings
 ├── kafka
